@@ -1,0 +1,59 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  font-size: 50px;
+}
+.name {
+  color: #ffa600;
+}
+.home-grid {
+  height: 100vh;
+  padding-inline: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image img {
+  width: 500px;
+}
+.button {
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(#ffa600, red);
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/****************/
+/* CARD SECTION */
+/****************/
+
+.card-section {
+  margin-inline: 100px;
+  margin-bottom: 100px;
+}
+.card-class {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.card {
+  box-shadow: 10px 1px 20px #afafaf;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+}
